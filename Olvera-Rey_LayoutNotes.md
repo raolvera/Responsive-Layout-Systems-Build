@@ -6,16 +6,6 @@ Professor: Hillerman
 Module: 3 – Responsive Layout System
 Date: September 13, 2026
 
-How this file is laid out:
-  1. Responsive layout foundation
-  2. Advanced Grid patterns
-  3. Subgrid or documented alternative
-  4. Container-query component
-  5. Content-driven breakpoints
-  6. User preferences
-  7. Feature/fallback strategy
-  8. Testing evidence
-  9. AI disclosure
 
 ## Overview
 
@@ -69,9 +59,7 @@ One more note on validation. When I run the CSS through the W3C validator it rep
 
 ## 9. AI disclosure
 
-I used AI within the allowed scope, which is that AI may explain syntax, suggest edge cases, or help troubleshoot. It explained how the newer CSS features work and pointed out edge cases.
-
-I wrote and set up the CSS myself and checked all of it in the browser using the tests in part 8, so the results come from my own testing.
+I used AI within the allowed scope, which is that AI may explain syntax, suggest edge cases, or help troubleshoot. It explained how the newer CSS features work and pointed out edge cases. I wrote and set up the CSS myself and checked all of it in the browser using the tests in part 8, so the results come from my own testing.
 
 ## References
 
