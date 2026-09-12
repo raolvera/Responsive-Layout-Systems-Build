@@ -1,0 +1,195 @@
+<!--Boiler plate-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Page setup -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | ASU Sun Devils Gameday Hub</title>
+  <meta name="description" content="Your one stop gameday hub for ASU Sun Devils football clear-bag rules, parking, light rail, traditions, and the fall schedule in Tempe.">
+
+  <!-- Fonts and stylesheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Oswald:wght@600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Skip link for keyboard users -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <!-- Logo -->
+      <a class="brand" href="index.html">
+        <span class="pitchfork" aria-hidden="true">🔱</span>
+        <span>Sun Devils Gameday Hub</span>
+      </a>
+
+      <!-- Mobile menu toggle -->
+      <input class="nav-toggle-checkbox" type="checkbox" id="nav-toggle" aria-hidden="true">
+      <label class="nav-toggle" for="nav-toggle">☰ Menu</label>
+
+      <!-- Nav links -->
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <!-- TODO: PLANNED PAGES — links below to be re-enabled once these pages are added:
+          <li><a href="traditions.html"><span class="nav-extra"></span>Gameday <span class="nav-extra"></span>Traditions</a></li>
+          <li><a href="stadium.html">Stadium<span class="nav-extra"> Guide &amp; Policies</span></a></li>
+          <li><a href="transportation.html"><span class="nav-extra">Transportation &amp; </span>Parking</a></li>
+          -->
+          <li><a href="schedule.html"><span class="nav-extra">Fall </span>Schedule</a></li>
+          <li><a href="faq.html">FAQ<span class="nav-extra"> &amp; Contact</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>Everything You Need for Sun Devils Gameday</h1>
+      <p>Clear bag rules, parking lots, light rail routes, traditions, and the fall schedule all in one place, so you spend less time searching and more time cheering.</p>
+      <a class="btn" href="stadium.html">Check Stadium Policies</a>
+    </div>
+  </section>
+
+  <!-- Main content -->
+  <main id="main">
+    <div class="container">
+      <!-- TODO: ADD IMAGE HERE — home page feature image, replace with real file.
+           <img class="feature-img" src="images/[image]" alt="Mountain America Stadium on gameday" width="500" height="300"> -->
+
+      <!-- Quick links -->
+      <section aria-labelledby="quick-links-title">
+        <h2 class="section-title" id="quick-links-title">Quick Links</h2>
+        <p class="lede">New to Tempe on gameday or a lifelong fan double checking the rules? Jump straight to what you need.</p>
+
+        <div class="card-grid cols-3">
+          <!-- Stadium card -->
+          <article class="card">
+            <h3>Stadium Guide &amp; Policies</h3>
+            <p>Clear-bag policy, prohibited items, gate times, and security screening explained.</p>
+            <a class="btn" href="stadium.html">View policies</a>
+          </article>
+
+          <!-- Transportation card -->
+          <article class="card">
+            <h3>Transportation &amp; Parking</h3>
+            <p>Parking lots, prices, accessible options, and Valley Metro light rail routes to campus.</p>
+            <a class="btn" href="transportation.html">Plan your trip</a>
+          </article>
+
+          <!-- Schedule card -->
+          <article class="card">
+            <h3>Fall Schedule</h3>
+            <p>Home and away matchups with dates and kickoff times for the season.</p>
+            <a class="btn" href="schedule.html">See the schedule</a>
+          </article>
+
+          <!-- Traditions card -->
+          <article class="card">
+            <h3>Gameday Traditions</h3>
+            <p>From the Curtain of Distraction to Tillman Tunnel learn the rituals that make it special.</p>
+            <a class="btn" href="traditions.html">Explore traditions</a>
+          </article>
+
+          <!-- FAQ card -->
+          <article class="card">
+            <h3>FAQ &amp; Contact</h3>
+            <p>Common questions about tickets, re-entry, weather, and how to reach us.</p>
+            <a class="btn" href="faq.html">Get answers</a>
+          </article>
+
+          <!-- First-time visitor card -->
+          <article class="card">
+            <h3>First Time in Tempe?</h3>
+            <p>Start with the Stadium Guide, then check Transportation to pick parking or the light rail.</p>
+            <a class="btn" href="stadium.html">Start here</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- Gameday at a glance: exercises Advanced Grid Pattern 2
+           (auto-fill + minmax intrinsic sizing, with subgrid aligning
+           the label/value rows across the whole row). -->
+      <section aria-labelledby="glance-title">
+        <h2 class="section-title" id="glance-title">Gameday at a Glance</h2>
+        <p class="lede">The numbers fans ask about most, before they even leave the house.</p>
+
+        <dl class="stat-grid">
+          <div class="stat">
+            <dt>Clear-bag limit</dt>
+            <dd>12" x 6" x 12"</dd>
+          </div>
+          <div class="stat">
+            <dt>Gates open</dt>
+            <dd>90 min before kickoff</dd>
+          </div>
+          <div class="stat">
+            <dt>Light rail stop</dt>
+            <dd>Veterans Way / College Ave</dd>
+          </div>
+          <div class="stat">
+            <dt>Closest lots</dt>
+            <dd>Packard &amp; Apache</dd>
+          </div>
+        </dl>
+      </section>
+
+      <!-- About -->
+      <section aria-labelledby="about-title">
+        <h2 class="section-title" id="about-title">Why This Hub Exists</h2>
+        <p class="lede">Gameday logistics for ASU football are usually scattered across five different sites. This hub pulls the essentials security rules, parking, transit, and schedules into one lean, fast loading resource built for students, alumni, local fans, and visitors heading to Mountain America Stadium.</p>
+
+        <!-- Spotlight: the container-query component. This instance sits in
+             the wide main column, so it renders side-by-side. Dropped into a
+             narrow region (e.g. a future sidebar) the SAME markup would stack,
+             because it responds to its container width, not the viewport. -->
+        <div class="spotlight-wrap">
+          <div class="spotlight">
+            <!-- TODO: ADD IMAGE HERE — spotlight media image, replace with real file.
+                 <img class="spotlight-media" src="images/[image]" alt="" width="260" height="180"> -->
+            <div class="spotlight-body">
+              <h3>First time at Mountain America Stadium?</h3>
+              <p>Start with the clear bag rules and gate times, then pick parking or the light rail. Five minutes here saves a scramble at the gate.</p>
+              <a class="btn" href="stadium.html">Read the stadium guide</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2>Sun Devils Gameday Hub</h2>
+          <p>A community resource for ASU football gameday in Tempe, Arizona.</p>
+        </div>
+        <!-- Footer nav -->
+        <nav aria-label="Footer">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <!-- TODO: PLANNED PAGES — links below to be re-enabled once these pages are added:
+            <li><a href="traditions.html">Gameday Traditions</a></li>
+            <li><a href="stadium.html">Stadium Guide &amp; Policies</a></li>
+            <li><a href="transportation.html">Transportation &amp; Parking</a></li>
+            -->
+            <li><a href="schedule.html">Fall Schedule</a></li>
+            <li><a href="faq.html">FAQ &amp; Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Disclaimer -->
+      <p class="disclaimer">
+        This is a student capstone project for educational purposes only. It is not affiliated with, endorsed by, or an official site of Arizona State University or Sun Devil Athletics. Always confirm policies, schedules, and parking on official sources before gameday.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
