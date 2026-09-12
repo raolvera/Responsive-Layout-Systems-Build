@@ -69,7 +69,7 @@ One more note on validation. When I run the CSS through the W3C validator it rep
 
 ## 9. AI disclosure
 
-I used AI within the allowed scope, which is that AI may explain syntax, suggest edge cases, or help troubleshoot. It explained how the newer CSS features work and pointed out a few edge cases to watch for while I was building.
+I used AI within the allowed scope, which is that AI may explain syntax, suggest edge cases, or help troubleshoot. It explained how the newer CSS features work and pointed out edge cases.
 
 I wrote and set up the CSS myself and checked all of it in the browser using the tests in part 8, so the results come from my own testing.
 
